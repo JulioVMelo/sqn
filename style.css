@@ -1,0 +1,1290 @@
+/*
+	Theme Name: Sabores que Nutrem
+	Theme URI: http://www.saboresquenutrem.com.br
+	Author: Júlio Vilar Melo de Moraes
+	Author URI: http://juliovmelo.com.br
+	Description: Tema para divulgação de receitas, cursos e dicas para alimentação infantil.
+ 	Version: 1.0
+*/
+
+
+/*----- CSS Reset -----*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+	outline: none;
+}
+
+img,
+object,
+embed,
+video,
+iframe,
+iframe['style']{
+	max-width:100%;
+	height: auto;
+}
+
+ul{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+}
+a:visited{
+	color: inherit;
+}
+a:link{
+	color: inherit;
+}
+/*----- End CSS Reset-----*/
+
+/*----- All -----*/
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.content{
+	width: 90%;
+	margin:0 auto;
+}
+
+.clear{
+	clear: both;
+}
+/*----- End All -----*/
+
+/*----- Header -----*/
+header{
+	background: linear-gradient(to left,#00897B,#004D40);
+	padding-bottom: 10px;
+	box-shadow: 0px 10px 35px #ccc;
+	margin-bottom: 10px;
+}
+header .content{
+	width: 87%;
+	padding-top: 10px;
+}
+header .content .logo{
+	width: 80px;
+	float: left;
+}
+header .content .logo img{
+	width: 100%;
+}
+header .content .btn-menu{
+	float: right;
+	margin-top: 20px;
+}
+header .content .btn-menu img{
+	width: 40px;
+}
+header .content nav{
+	padding-top:20px;
+	color: #00A852;
+	display: none;
+}
+header .content nav ul li{
+	border-top: 1px solid #00695C;
+	text-align: center;
+	font-weight: 500;
+	letter-spacing: 3px;
+}
+header .content nav ul li:first-of-type{
+	border-top: none;
+}
+header .content nav ul li a{
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+header .tel-contato{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: green;
+	display: none;
+}
+header .tel-contato ul{
+	text-align: center;
+	color: #000;
+}
+header .tel-contato .fa{
+	margin-right:10px;
+}
+header .tel-contato .fa-whatsapp{
+	color: #25D366;
+}
+/*----- End Header -----*/
+/*----- Slide -----*/
+section .content{
+	width: 97%;
+}
+section .content .caption{
+	color: 	#FDD835;
+	background-color: #000;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+.flex-direction-nav .flex-next{
+	right: 0px!important;
+}
+/*----- End Slide -----*/
+/*----- About home -----*/
+.about-home{
+	background-color: #ECEBE1;	
+	margin-top: 5px;
+	padding-top: 15px;
+	height: auto;
+}
+.about-home .content{
+	padding-top: 50px;
+	width: 85%;
+	text-align: center;
+	padding-bottom: 120px;
+	color: #c0392b;
+}	
+.about-home .content .description h2{
+	margin-top: 30px;
+	margin-bottom: 35px;
+	font-size: 2em;
+}
+.about-home .content .description p{
+	margin-bottom: 30px;
+	text-align: justify;
+	font-size: 1.3em;
+}
+.about-home .content .wrap-areas{
+	margin-bottom: 50px;
+}
+.about-home .content .areas{
+	width: 100%;
+	text-align: center;
+	font-style: italic;
+	font-size: 1.1em;
+	margin-bottom: 20px;
+}
+.about-home .content .areas img{
+	width: 100px;
+	background-color: #FF6F6F;
+	padding:20px;
+	border-radius: 30%;
+	transition: border, background-color,border-radius 0.7s;
+}
+.about-home .content .areas img:hover{
+	background-color:#FDD835;
+	border-radius:10%;
+}
+
+.about-home .content .btn-more{
+	background-color: #FF6F6F;
+	padding: 10px;
+	border-radius: 10px;
+	color: #fff;
+
+	transition: color, background-color 0.6s;
+}
+.about-home .content .btn-more:hover{
+	background-color: #fff;
+	color: #FF6F6F;
+}
+.about-home .content .btn-more img{
+	margin-right: 5px;
+}
+/*----- End About home -----*/
+/*----- Last add -----*/
+
+.last-add {
+	background-image:url("assets/images/folhas.jpeg");
+	background-size: contain; 
+}
+.last-add .content{
+	width: 92%;
+	padding-top: 120px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+.last-add h2{
+	color: #FF7373;
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 2.2em;
+	font-weight: bold;
+}
+.last-add .content .borda{
+	height: 40px;
+	width: 100%;
+	margin:0 auto;
+	display: block;
+	background: url("assets/images/borda.png") no-repeat center center;
+	background-size: contain;
+}
+.last-add .content .card{
+	color: #ff7373;
+	margin-top: 40px;
+	background-color: #fff;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	box-shadow: 0px 10px 10px #ccc;
+}
+.last-add .content .card:first-of-type{
+	margin-top: 30px;
+}
+.last-add .content .card h3{
+	font-size: 1.6em;
+	margin-bottom: 10px;
+	text-transform: uppercase;	
+}
+.last-add .content .card img{
+	max-width: 96%;
+	border-radius: 5px;
+}
+.last-add .content .card p{
+	margin-top: 15px;
+	text-align: left;
+	padding-left: 10px;
+	font-size: 1.1em;
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+.last-add .content .card .btn-more{
+	width: 100%;
+	text-align: right;
+}
+.last-add .content .card .read-more{
+	margin-right: 15px;
+	padding:10px;
+	color: #fff;
+	background-color: #ff7373;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #ccc;
+	transition:  color, background-color 0.6s;
+}
+.last-add .content .card .read-more:hover{
+	background-color: #FDD835;
+	color: #fff;
+}
+.last-add .content .card .read-more img{
+	width: 16px;
+	margin-right: 5px;
+}
+.last-add .content .card .read-more span{
+	margin-left: 5px;
+}
+.next-cursos{
+	padding-top: 70px;
+	background-image:url("assets/images/folhas.jpeg");
+	background-size: contain; 
+	padding-bottom: 140px;
+}
+.next-cursos .content{
+	width: 95%;
+}
+.next-cursos .content h2{
+	text-align: center;
+	font-size: 2.4em;
+	color: #004D40	;
+}
+.next-cursos .content .info{
+	background-color: #eee;
+	margin-top: 50px;
+	margin-bottom: 60px;
+	box-shadow: 20px 20px 35px #ccc;	
+}
+.next-cursos .content .info h3{
+	background-color:#004D40;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+	word-spacing: 10px;
+}
+.next-cursos .content .info .curso-detalhe{
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+.next-cursos .content .info .curso-detalhe p{
+	display: inline;
+	margin-left: 10px;
+	color: #000;
+	font-size: 1em;
+	line-height: 20px;
+}
+.next-cursos .content .info .curso-detalhe i{
+	width: 100%;
+	margin-bottom: 20px;
+	color: #ff7373;	
+	border-left: 5px solid #ff7373;
+	padding-left: 10px;
+}
+.next-cursos .content .info a{
+	background: linear-gradient(to left,#00897B,#004D40);;
+	color: #fff;
+	width: 100%;
+	display: block;
+	padding: 10px;
+	text-align: center;
+	font-size: 1.1em;
+}
+.next-cursos .content .info a img{
+	width: 20px;
+}
+.next-cursos .content .ver-cursos{
+	background-color:  #004D40;
+	padding: 10px;
+	color: #fff;
+	border-radius: 5px;
+	transition: color, background-color, 0.4
+}
+.next-cursos .content .ver-cursos:hover{
+	background-color: #FDD835;
+	color:#fff;
+}
+/*----- End Last add -----*/
+/*----- Contact -----*/
+.contact{
+	background-color: #004D40;
+	color: #FFF;
+}
+.contact .content {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	width: 90%;
+}
+.contact .content h2{
+	text-align: center;
+	font-size: 2.2em;
+}
+.contact .content i{
+	font-size: 2.7em;
+	text-align: center;
+	display: block;
+	margin-bottom: 20px;
+}
+.contact .content label{
+	display: block;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	font-size: 1.1em;
+}
+.contact .content input{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	padding-left: 10px;
+	transition: border 1s;
+}
+.contact .content input:focus{
+	border: 2px solid #EFCE4A;
+}
+.contact .content textarea{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	width: 100%;
+	padding-left: 10px;
+	resize: vertical;
+}
+.contact .content textarea:focus{
+	border: 2px solid #EFCE4A;
+}
+.contact .content input[type="submit"]{
+	padding: 10px;
+	margin-top: 15px;
+	width: 70px;
+	float: right;
+	color: #004D40;
+	transition: color, background-color, 0.5s;
+	font-weight: 600;
+	margin-bottom: 30px;
+	clear: both;
+}
+.contact .content input[type="submit"]:hover{
+	color: #fff;
+	background-color: #004D40;
+}
+div.wpcf7-response-output{
+	margin-top: 50px;
+}
+.contact .content .social-media{
+	border-top: 1px solid #000;
+}
+.contact .content .social-media h3{
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.contact .content .social-media ul li{
+	margin-right: 10px;
+	display: inline;
+	cursor: pointer;
+}
+.contact .content .social-media ul li img{
+	width: 45px;
+}
+/*----- End Contact -----*/
+/*----- Footer -----*/
+.footer{
+	color: #fff;
+	background-color: #212121;
+}
+.footer .content{
+	width: 92%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.footer .content .desenvolvedor {
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+}
+.footer .content .desenvolvedor p {
+    font-size: 12px;
+    color: #F58634;
+    text-align: center;
+}
+.footer .content .desenvolvedor #autor {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    display: block;
+    letter-spacing: 2px;
+}
+.footer .content .desenvolvedor #detalhe {
+    color: #F58634;
+}
+.footer .content .direitos {
+    width: 50%;
+    font-size: .8em;
+    color: #fff;
+    float: right;
+    text-align: center;
+}
+.footer .content .direitos img {
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+/*----- End Footer -----*/
+
+/*===============Page About=============*/
+
+/*----- About -----*/
+.about{
+	text-align: center;
+	background-image:url("assets/images/folhas.jpeg");
+	background-size: contain;
+	background-attachment: fixed; 
+	color: #C0392B;
+}	
+.about .destaque{
+	background: url("assets/images/destaque3.jpeg");
+	background-size: contain;
+	display: block;
+	height: 170px;
+}
+.about .content{
+	padding-top: 100px;
+	padding-bottom: 30px;
+	width: 92%;
+}
+.about .content h2{
+	font-size: 2.6em;
+	margin-bottom: 10px;
+}
+.about .content p{
+	text-align: justify;
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 30px;
+	font-size: 1.3em;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+.about .content img{
+	width: 50px;
+}
+.about .redes-sociais{
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.about .redes-sociais h2{
+	font-size: 1.8em;
+	margin-bottom: 15px;
+}
+.about .redes-sociais ul li{
+	display: inline;
+	cursor: pointer;
+	margin-right: 10px;
+
+}
+.about .redes-sociais ul li:last-of-type{
+	margin-right: 0px;
+}
+.about .content .dados img{
+	width: 300px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.about .content .dados .dado p{
+	text-align: justify;
+	margin-bottom: 20px;
+	padding: 0px;
+}
+
+.about .content .apresentacoes h2{
+	margin-top: 40px;
+	font-size: 1.8em;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+.about .content .apresentacoes .video{
+	margin:0 auto;
+}
+.about .content .apresentacoes .apresentacao .video ul li{
+		display: inline;
+}
+.about .content .apresentacoes .video iframe{
+	max-width: 100%;
+	margin-bottom: 40px;
+}
+.about .content .apresentacoes p{
+	font-style: italic;
+	padding-top: 0;
+	text-align: center;
+	padding-top: 5px;
+}
+.mapa {
+	text-align: center;
+	background-color: #ECEBE1;
+	color: #C0392B;
+}
+.mapa .content{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.mapa .content h3{
+	font-weight: 400;
+	font-size: 1.5em;
+	margin-bottom: 5px;
+}
+.mapa .content i{
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+.mapa .content p{
+	font-style: italic;
+	font-size: 1.1em;
+}
+.mapa .content button{
+	margin-top: 20px;
+	background-color: #C0392B;
+	padding:10px;
+	color: #ECEBE1;
+	border: none;
+	border-radius: 5px;
+	transition: color, background-color, 0.6s;
+	box-shadow: 5px 5px 5px #ccc;
+}
+.mapa .content button:hover{
+	color: #c0392b;
+	background-color:#fff ;
+}
+/*----- End About -----*/
+/*----- Dicas -----*/
+
+.dicas .destaque{
+	background: url("assets/images/destaque1.jpeg");
+	background-size: contain;
+	display: block;
+	height: 180px;
+}
+.dicas .content{
+	padding-bottom: 40px;
+	padding-top: 40px;
+	width: 88%;
+}
+.dicas .content .titulo{
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	width: 100%;
+	background-color: #fff;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 10px solid #004D40;
+	margin-bottom: 50px;
+}
+
+.dicas .content .titulo h2{
+	padding-top: 5px;
+	float: left;
+}
+.dicas .content .titulo img{
+	width: 40px;
+	float: right;
+}
+.dicas{
+	margin:0 auto;
+	color: #004D40;
+}
+.dicas .content .dicas-panel{
+	border-bottom: 1px solid #eee;
+	margin-bottom: 30px;
+}
+.dicas .content .dicas-panel .wp-post-image{
+	width: 100%;
+}
+.dicas .content .dicas-panel h3{
+	padding-top: 20px;
+	font-weight: 600;
+	word-spacing: 2px;	
+	text-transform: uppercase;
+	transition: color, 0.4s;
+	cursor: pointer;
+}
+.dicas .content .dicas-panel h3:hover{
+	color: #ff7373;
+}
+.dicas .content .dicas-panel p{
+	padding-top: 10px;
+	margin-bottom: 40px;
+}
+.dicas .content .dicas-panel #link{
+	padding: 8px;
+	background-color: #eee;
+	display: block;
+	width: 110px;
+	margin-bottom: 20px;
+	text-align: center;
+	box-shadow: 10px 5px 25px #ccc;
+	transition: color, background-color, 0.4s;
+}
+.dicas .content .dicas-panel #link:hover{
+	color: #fff;
+	background-color: #ff7373;
+}
+.dicas .content .dicas-panel a img{
+	padding-right: 5px;
+}
+
+/*----- End dicas -----*/
+/*----- Receitas -----*/
+.receitas{
+	color: #000;
+}
+.receitas .destaque{
+	background: url("assets/images/destaque2.jpeg");
+	background-size: contain;
+	display: block;
+	height: 180px;
+}
+.receitas .content{
+	padding-bottom: 40px;
+	padding-top: 40px;
+	width: 88%;
+}
+.receitas .content .titulo{
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	width: 100%;
+	background-color: #fff;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 10px solid #004D40;
+	margin-bottom: 50px;
+}
+.receitas .content .titulo h2{
+	padding-top: 5px;
+	float: left;
+}
+.receitas .content .titulo img{
+	width: 40px;
+	float: right;
+}
+.receitas .content .receitas-panel{
+	border-bottom: 1px solid #eee;
+	margin-bottom: 30px;
+}
+.receitas .content .receitas-panel .wp-post-image{
+	width: 100%;
+}
+.receitas .content .receitas-panel h3{
+	padding-top: 20px;
+	font-weight: 600;
+	word-spacing: 2px;	
+	text-transform: uppercase;
+	transition: color, 0.4s;
+	cursor: pointer;
+}
+.receitas .content .receitas-panel h3:hover{
+	color: #ff7373;
+}
+.receitas .content .receitas-panel p{
+	padding-top: 10px;
+	margin-bottom: 40px;
+}
+.receitas .content .receitas-panel .ler-mais{
+	padding: 8px;
+	background-color: #eee;
+	display: block;
+	width: 110px;
+	margin-bottom: 20px;
+	text-align: center;
+	box-shadow: 10px 5px 25px #ccc;
+	transition: color, background-color, 0.4s;
+}
+.receitas .content .receitas-panel .ler-mais:hover{
+	color: #fff;
+	background-color: #ff7373;
+}
+.receitas .content .receitas-panel a img{
+	padding-right: 5px;
+}
+/*----- End receitas -----*/
+/*----- Cursos -----*/
+.past-cursos{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.past-cursos .content{
+	padding-bottom: 100px;
+	padding-top: 50px;
+	width: 94%;
+}
+.past-cursos h2{
+	font-size: 2.6em;
+	color: #ff7373;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.past-cursos i{
+	display: block;
+	text-align: center;
+	font-size: 3em;
+	color: #004D40;
+}
+.past-cursos .content .past-curso h3{
+	text-align: center;
+	font-size: 2em;
+	color: #004D40;
+}
+.past-cursos .content .past-curso p{
+	text-align: center;
+	color: #ff7373;
+	font-size: 1.6em;
+}
+.past-cursos .content .past-curso ul{
+	margin-top: 20px;
+	text-align: center;
+}
+.past-cursos .content .past-curso ul li{
+	display: inline;
+	margin-right:10px;
+}
+.past-cursos .content .past-curso ul li img{
+	width: 300px;
+	height: 300px;
+	border: 5px solid #004D40;
+	transition: border, 0.2s;
+}
+.past-cursos .content .past-curso ul li img:hover{
+	border: 10px solid #ff7373;
+}
+/*----- End cursos -----*/
+/*----- Receita single -----*/
+.receita{
+	background-image:url("assets/images/folhas.jpeg")!important;
+	background-size: 40%; 
+	color: #004D40;
+	padding-top: 70px;
+	padding-bottom: 100px;
+}
+.receita .content{
+	width: 90%;
+	background-color: #fff;
+}
+.receita .content h2{
+	margin-top: 15px;
+	padding-top: 5px;
+	margin-bottom: 50px;
+	font-size: 2.2em;
+}
+.receita .content .foto-receita{
+	background-color:#004D40;
+}
+.receita .content .foto-receita img{
+	width: 100%;
+}
+.receita .content .foto-receita span{
+	float: right;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	color: #fff;
+}
+.receita .content .foto-receita span:first-of-type{
+	margin-left: 15px;
+}
+.receita .content .foto-receita span i{
+	margin-right: 5px;
+}
+.receita .content p{
+	padding-left: 10px;
+	font-size: 1.3em;
+	margin-bottom: 5px;
+	margin-top: 20px;
+	text-align: justify;
+}
+.receita .content ol{
+	margin-left: 30px;	
+}
+.receita .content ul{
+	margin-left: 30px;
+	list-style: circle!important;	
+}
+/*----- End Receita single -----*/
+/*-----  Dica single -----*/
+.dica{
+	color: #004D40;
+}
+.dica .content{
+	width: 90%;
+	padding-top: 30px;
+	padding-bottom: 70px;
+}
+.dica .content h2{
+	font-size:1.8em;
+	margin-bottom: 10px;
+}
+.dica .content img{
+	width: 100%;
+	border:2px solid #004D40;
+	margin-bottom: 20px;
+}
+.dica .content p{
+	text-align: justify;
+	font-size: 1.1em;
+}
+/*----- End Dica single -----*/
+/*----- Curso single -----*/
+.curso{
+	color: #004D40;
+}
+.curso .content{
+	width: 92%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.curso .content h2{
+	margin-bottom: 30px;
+	text-align: center;
+}
+.curso .content .curso-video{
+	border: 2px solid  #004D40;
+	margin-bottom: 30px;
+}
+.curso .content .curso-video iframe{
+	max-width: 100%;
+}
+.curso .content .curso-video p{
+	background-color: #ccc;
+	text-align: justify;
+	padding: 20px 10px 20px 10px;
+	background-color: #004D40;
+	color:#fff;
+}
+/*----- End Curso single -----*/
+
+
+/*========== Responsive ==========*/
+
+
+/*----- 533px -----*/
+@media screen and (min-width: 533px){
+	.about-home .content .description{
+		margin-bottom: 70px;
+	}
+	.about-home .content .wrap-areas{
+		margin-bottom: 60px;
+	}
+	.about-home .content .areas{
+		width: 30%;
+		float: left;
+		margin-right: 5%;
+		margin-bottom: 0px;
+	}
+	.about-home .content .wrap-areas .areas:nth-of-type(3){
+		margin-right: 0;
+	}
+	.about-home .content .areas:last-of-type{
+		margin-bottom: 0;
+	}
+	.last-add .content .card{
+		width: 70%;
+		margin: 30px auto;
+	}
+	.next-cursos .content{
+		width: 70%;
+	}
+	.contact .content{
+		width: 70%;
+	}
+	.footer .content{
+		width: 70%;
+	}
+
+	.about .content{
+		width: 80%;
+	}
+	.about .content .apresentacoes .apresentacao{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.dicas .content{
+		width: 60%;
+	}
+	.receitas .content{
+		width: 60%;
+	}
+	.cursos .content .card{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.curso .content{
+		width: 70%;
+	}
+	.dica .content{
+		width: 75%;
+	}
+	.receita .content{
+		width: 70%;
+	}
+}
+
+
+/*----- 768px -----*/
+@media screen and (min-width: 768px){
+	.about-home .content{
+		width: 70%;
+	}
+	.last-add .content .card img{
+		width: 60%;
+	}
+	.next-cursos .content{
+		width: 60%;
+	}
+	.contact .content{
+		width: 60%;
+	}
+	.footer .content{
+		width: 100%;
+	}
+	.about .content{
+		width: 65%;
+	}
+	.dicas .content {
+		width: 80%;
+	}
+	.dicas .content .dicas-panel .wp-post-image{
+		width: 45%;
+		float: left;
+	}
+	.dicas .content .dicas-panel{
+		padding-bottom: 30px;
+	}
+	.dicas .content .dicas-panel .text{	
+		text-align: left;
+		width: 50%;
+		float: right;
+	}
+	.dicas .content .dicas-panel .text h3{
+		padding-top: 0px;
+	}
+
+	.receitas .content {
+		width: 80%;
+	}
+	.receitas .content .receitas-panel .wp-post-image{
+		width: 45%;
+		float: left;
+	}
+	.receitas .content .receitas-panel{
+		padding-bottom: 30px;
+	}
+	.receitas .content .receitas-panel .text{	
+		text-align: left;
+		width: 50%;
+		float: right;
+	}
+	.receitas .content .receitas-panel .text h3{
+		padding-top: 0px;
+	}
+	.cursos .content .card{
+		width: 45%;
+		float: left;
+		margin-right:2.5%;
+		margin-left: 2.5%;
+	}
+	.cursos .content .card:nth-of-type(2n+2){
+		margin-right: 2.5%;
+		margin-left: 2.5%;
+	}
+	.cursos .content .card .clear{
+		clear: none;
+	}
+	.about .content {
+		width: 100%;
+	}
+	.about .content .apresentacoes .video iframe{
+		max-width: 45%;
+		margin-bottom: 40px;
+	}
+	.about .content .apresentacoes .apresentacao ul li{
+		margin-right: 10px;
+	}
+	.curso .content{
+		width: 80%;
+	}
+	.curso .content .curso-video{
+		width: 48%;
+		float: left;
+		margin-right: 4%;
+	}
+	.curso .content .curso-video:nth-of-type(2n+2){
+		margin-right: 0px;
+	}
+	.dica .content{
+		width: 60%;
+	}
+	.receita .content{
+		width: 60%;
+	}
+}
+
+@media screen and (min-width: 1000px){
+	.container header{
+		background: none;
+		box-shadow: none;
+	}
+	header .content{
+		padding-top: 20px;
+		width: 100%;
+	}
+	header .content .logo{
+		width: 230px;
+		float: none;
+		margin: 0 auto;
+	}
+	header .content .btn-menu{
+		display: none;
+	}
+	header .content nav{
+		padding-top:20px;
+		padding-bottom:20px;
+		margin-top: 50px;
+		color: #fff;
+		display: block!important;
+		text-align: center;	
+		background-color: #004D40;
+	}
+
+	header .content nav ul li{
+		border-top: none;
+		text-align: left;
+		font-weight: 600;
+		letter-spacing: 3px;
+		display: inline;
+		margin-right: 40px;
+	}
+	header .content nav ul li:last-of-type{
+		margin-right: 0px;
+	}
+	header .content nav ul li a{
+		padding-left: 5px;
+		padding-right: 5px;
+		display: inline;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		transition: background-color, color, 0.7s;
+	}
+	header .content nav ul li a:hover{
+		background-color: #FFDA20;
+		color: #fff;
+	}
+	header .tel-contato{
+		display: block;
+		font-size: 1.2em;
+	}
+	.about-home .content{
+		width: 60%;
+	}
+	.last-add .content{
+		width: 80%;
+	}
+	.last-add .content .galeria{
+		padding-left: 0px;
+	}
+	.last-add .content h2{
+		text-align: left;
+	}
+	.last-add .content .borda{
+		background: url("assets/images/borda.png") no-repeat center left;
+	}
+
+	.last-add .content .card{
+		width: 30%;
+		float: left;
+		margin-right: 5%;
+	}
+	.last-add .content .card:nth-of-type(3n+3){
+		margin-right: 0px;
+	}
+	.last-add .content .card img{
+		width: 90%;
+	}
+	.next-cursos .content{
+		width: 80%;
+	}
+	.next-cursos .content h2{
+		text-align: left;
+	}
+	.next-cursos .content .info{
+		width: 40%;
+		float: left;
+		margin-right: 5%;
+	}
+
+	.contact .content{
+		width: 40%;
+	}
+	.footer{
+		padding-top: 30px;
+	}
+
+	.about .content{
+		width: 70%;
+	}
+	.about .content .apresentacoes .apresentacao{
+		width: 100%;
+	}
+	.dicas .content{
+		width: 70%;
+	}
+	.receitas .content{
+		width: 70%;
+	}
+	.cursos .content .card{
+		width: 30%;
+		margin-left: 0px;
+		margin-right: 0px
+	}
+	.cursos .content .card:nth-of-type(2n+2){
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+	.cursos .content .card:nth-child(3n+2){
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.curso .content h2{
+		text-align: left;
+	}
+	.dica .content{
+		width: 50%;
+	}
+	.dica .content h2{
+		text-align: center;
+	}
+	.receita .content{
+		width: 50%;
+	}
+	.receita .content h2{
+		text-align: center;
+	}
+}	
+
+@media screen and (min-width: 1400px){
+	.about-home .content{
+		width: 40%;
+	}
+	.last-add .content{
+		width: 60%;
+	}
+	.next-cursos .content {
+		width: 70%;
+	}
+	.next-cursos .content .info{
+		width: 30%;
+		float: left;
+		margin-right: 5%;
+	}
+	.next-cursos .content .info:nth-of-type(3n+3){
+		margin-right: 0%;
+	}
+	.contact .content{
+		width: 35%;
+	}
+	.about .content .curriculo h2{
+		margin-bottom: 70px;
+	}
+	.about .content .curriculo{
+		background-color: #fff;
+		padding: 10px;
+	}
+	.about .content .dados img{
+		padding-left: 10px;
+		margin-right: 20px;
+		margin-bottom: 30px;
+		float: left;
+	}
+	.about .content .dados .dado p{
+		text-align: justify;
+		margin-bottom: 20px;
+		padding:0px;
+	}
+	.about .content .dados .dado p:first-of-type{
+		padding-top: 40px;
+	}
+	.about .content{
+		width: 50%;
+	}
+	.dicas .content{
+		width: 50%;
+	}
+	.cursos .content{
+		width: 60%;
+	}
+	.receitas .content{
+		width: 50%;
+	}
+	.curso .content{
+		width: 60%;
+	}
+	.receita .content{
+		width: 45%;
+	}
+	#gallery-1 img{
+		border-radius: 50%;
+	}
+	#gallery-1 img:hover{
+		border: 5px solid #FFDA20;
+	}
+	.footer .content {
+   		 width: 70%
+	}
+}
+/*========== End Responsive ==========*/
